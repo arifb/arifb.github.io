@@ -1,0 +1,29 @@
+#home { 
+/*
+	Forces backgrounds to span full width,
+	even if there is horizontal scrolling.
+*/
+	min-width: 960px;
+  font-family: 'OFL Sorts Mill Goudy TT', arial, serif;
+}
+
+a { color: #CC3910; }
+
+h1 { 
+  text-align: center; 
+}
+
+footer { 
+  display: block; /* needed until all browsers html5 compliant */
+  margin: 20px 0 0 0; 
+}
+
+section {
+  display: block; /* needed until all browsers html5 compliant */
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
