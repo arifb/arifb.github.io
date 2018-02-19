@@ -7,10 +7,14 @@
   font-family: 'OFL Sorts Mill Goudy TT', arial, serif;
 }
 
-a { color: #CC3910; }
+a { color: #685d9; }
 
 h1 { 
   text-align: center; 
+}
+
+p, ul {
+  font-size: 18px;
 }
 
 footer { 
