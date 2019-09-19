@@ -1,8 +1,18 @@
 <!doctype html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148395435-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-148395435-1');
+    </script>
     <meta charset="utf-8"/>
     <script src="/shared/gtag.js"></script>
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" rel="stylesheet">
     <title>Upgrading a Rails app to use Webpacker instead of Sprockets for JavaScript Assets</title>
   </head>
