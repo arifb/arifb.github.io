@@ -1,33 +1,26 @@
-#home { 
-/*
-	Forces backgrounds to span full width,
-	even if there is horizontal scrolling.
-*/
-	min-width: 960px;
-  font-family: 'OFL Sorts Mill Goudy TT', arial, serif;
+#home {
+  font-family: "OFL Sorts Mill Goudy TT", arial, serif;
 }
 
-a { color: #800080; }
-
-h1 { 
-  text-align: center; 
+a {
+  color: #800080;
 }
 
-p, ul {
+h1 {
+  text-align: center;
+}
+
+p,
+ul {
   font-size: 18px;
 }
 
-footer { 
-  display: block; /* needed until all browsers html5 compliant */
-  margin: 20px 0 0 0; 
-}
-
-section {
-  display: block; /* needed until all browsers html5 compliant */
+footer {
+  margin: 20px 0 0 0;
 }
 
 .container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
