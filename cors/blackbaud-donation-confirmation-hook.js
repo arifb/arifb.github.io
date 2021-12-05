@@ -10,7 +10,7 @@ console.log(response);
 async function postDonationToHyc() {
   const response = await axios({
     method: "post",
-    url: "http://hyc.devbox:3000/api/v1/donations",
+    url: "https://hyc.devbox:3000/api/v1/donations",
     headers: {
       "Content-Type": "application/json",
     },
