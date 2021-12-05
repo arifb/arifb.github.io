@@ -13,6 +13,7 @@ async function postDonationToHyc() {
     url: "https://c9ed-173-181-14-191.ngrok.io/api/v1/donations",
     headers: {
       "Content-Type": "application/json",
+      Accept: "application/json",
     },
     data: {
       firstName: "Fred",
