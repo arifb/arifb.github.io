@@ -5,8 +5,6 @@ const subdomain = "medford";
 const response = postDonationToHyc();
 console.log(response);
 
-//Access-Control-Allow-Origin: http://
-
 async function postDonationToHyc() {
   const response = await axios({
     method: "post",
@@ -16,9 +14,11 @@ async function postDonationToHyc() {
       Accept: "application/json",
     },
     data: {
-      firstName: "Fred",
-      lastName: "Flintstone",
-      subdomain,
+      donation: {
+        first_name: "Fred",
+        last_name: "Flintstone",
+        subdomain,
+      },
     },
   });
   return response;
